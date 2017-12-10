@@ -41,26 +41,6 @@ span , p {
   z-index: 1;
 }
 
-.post-it{
-  display: none;
-  position: absolute;
-  top:20px;
-  left: 20px;
-  transform: rotate(-10deg);
-  background: #e0ec74; 
-  box-shadow: 8px 20px 15px rgba(0, 0, 0, .55);
-  background: linear-gradient(to bottom, #e0ec74, #efffc7);
-  border-radius: 2px;
-  z-index: 2;
-}
-
-.postit-text{
-  font-family: 'Itim', cursive;
-  color: rgb(68, 68, 241);
-  font-size: 30px;
-  text-align: center;
-}
-
 .header-profile{
   position: relative;
   width: 100%;
@@ -166,17 +146,72 @@ span.checked{
     background-image: url("./images/table.jpeg");
     background-size: 50%;
   }
-  .post-it{
-    display: block;
-    width: 180px;
-    height: 216px;
+  .post-it {
+    position: relative;
+    width: 240px;
+    height: 200px;
+    margin: 0;
+    transform: rotate(-10deg);
+    background: #e0ec74;
+    background: linear-gradient(to bottom, #e0ec74, #efffc7);
+    box-shadow: 20px 15px 20px rgba(0,0,0,.7);
     cursor: pointer;
+    z-index: 2;
   }
-
   .post-it:hover{
-    background: #e5ff00;  
-    box-shadow: 15px 20px 40px rgba(0, 0, 0, .8);
-    background: linear-gradient(to bottom, #d9e930, #d5dfb1);    
+    background: #e0ec74;
+    background: linear-gradient(to bottom, #e2f535, #c8d89a);
+    box-shadow: 25px 25px 40px rgba(0,0,0,.7);
+  }
+  .postit-text{
+    font-size: 30px;
+  }
+  .note {
+    width: 100%;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: rgb(68, 68, 241);
+    position: relative;
+    top:25%;
+    
+  }
+  .pin {
+    background-color: #aaa;
+    display: block;
+    height: 32px;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+    top: -16px;
+    z-index: 3;
+  }
+  .pin:after {
+    background-color: #A31;
+    background-image: linear-gradient(25% 25%, circle, hsla(0,0%,100%,.1), hsla(0,0%,0%,.3));
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+                inset 3px 3px 3px hsla(0,0%,100%,.5),
+                inset -3px -3px 3px hsla(0,0%,0%,.6),
+                23px 20px 5px hsla(0,0%,0%,.35);
+    content: '';
+    height: 12px;
+    left: -5px;
+    position: absolute;
+    top: -10px;
+    width: 12px;
+  }
+  .pin:before {
+    background-color: hsla(0,0%,0%,0.3);
+    box-shadow: 0 0 .5em hsla(0,0%,0%,0.2);
+    content: '';
+    height: 24px;
+    width: 2px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(57.5deg);
+    transform-origin: 50% 100%;
+ 
   }
   .paper , .paper.page1{
     position: absolute;
@@ -224,10 +259,10 @@ span.checked{
     font-size: 16px;
   }
   .post-it{
-    top: 5%;
-    left: 5%;
-    width: 250px;
-    height: 300px; 
+    top: 4%;
+    left: 2.5%;
+    width: 300px;
+    height: 250px; 
   }
   .github{
     right: 5%;;
