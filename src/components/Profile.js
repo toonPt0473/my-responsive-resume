@@ -25,7 +25,7 @@ const Profile = ({ profile }) => {
             <p className="white-text">{lang === "thai" ? "วันเกิด: " : "Birth: "}{profile.birthDate}</p>
             <p className="white-text">{lang === "thai" ? "การศึกษา: " : "Education: "}{profile.education}</p>
             <p className="white-text">{lang === "thai" ? "ที่อยู่: " : "Address: "}{profile.address}</p>
-            <p className="white text">{lang === "thai" ? "เงินเดือนที่ต้องการ: " : "Expect salary: "}18000-20000{lang === "thai" ? " บาท" : " bath"}</p>
+            <p className="white text">{lang === "thai" ? "เงินเดือนที่ต้องการ: " : "Expect salary: "}15000-20000{lang === "thai" ? " บาท" : " bath"}</p>
             <p className="white-text">{lang === "thai" ? "อีเมล: " : "Email: "}{profile.email}</p>
           </div>
           <div className="skill">
