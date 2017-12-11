@@ -1,8 +1,6 @@
 toonPt's resume : A resume build by ReactJs (responsive for any device)
 
 ```sh
-npm install -g create-react-app
-
 git clone https://github.com/toonPt0473/my-responsive-resume
 cd my-responsive-resume
 npm install
