@@ -11,7 +11,11 @@ const PostitComponent = ({ changeLang , profile : { lang } }) => {
             <i className="pin"></i>
             <div className="note">
                 <p className="postit-text">เปลี่ยนภาษา</p> 
-                <p className="postit-text">Click !!</p>
+                <p className="postit-text mark_one" style={{color:"coral"}}>Click 
+                    <span className="postit-text mark_one"> !</span>
+                    <span className="postit-text mark_two"> !</span>
+                    <span className="postit-text mark_three"> !</span>
+                </p>
           </div>
     </div>
     )
