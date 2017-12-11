@@ -146,7 +146,7 @@ span.checked{
   }
   .post-it {
     position: relative;
-    width: 240px;
+    width: 216px;
     height: 200px;
     margin: 0;
     transform: rotate(-10deg);
@@ -255,7 +255,7 @@ span.checked{
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   h1{
     font-size: 24px;
   }
@@ -268,8 +268,8 @@ span.checked{
   .post-it{
     top: 4%;
     left: 2.5%;
-    width: 300px;
-    height: 250px; 
+    width: 302.4px;
+    height: 280px; 
   }
   .github{
     right: 5%;;
