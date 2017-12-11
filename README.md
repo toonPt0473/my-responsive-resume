@@ -1,4 +1,4 @@
-toonPt's resume : A resume build by ReactJs (responsive for any device)
+## toonPt's resume : A resume build by ReactJs (responsive for any device)
 
 ```sh
 git clone https://github.com/toonPt0473/my-responsive-resume
