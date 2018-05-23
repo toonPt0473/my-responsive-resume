@@ -33,7 +33,7 @@ const Profile = ({ profile }) => {
             <p>{checkLang("วันเกิด: ", "Birth: ")}{profile.birthDate}</p>
             <p>{checkLang("การศึกษา: " , "Education: ")}{profile.education}</p>
             <p>{checkLang("ที่อยู่: " , "Address: ")}{profile.address}</p>
-            <p>{checkLang("เงินเดือนที่ต้องการ: " , "Expect salary: ")}15000-20000{lang === "thai" ? " บาท" : " bath"}</p>
+            <p>{checkLang("เงินเดือนที่ต้องการ: " , "Expect salary: ")}25000{lang === "thai" ? " บาท" : " bath"}</p>
             <p>{checkLang("อีเมล: " , "Email: ")}{profile.email}</p>
           </div>
           <div className="skill">
