@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moduleName from 'axios'
 
 import BackPaperPage from './components/BackPaperPage';
 import PostItComponent from './components/PostIt';  
