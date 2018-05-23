@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import moduleName from 'axios'
 
 import BackPaperPage from './components/BackPaperPage';
 import PostItComponent from './components/PostIt';  
@@ -11,8 +12,7 @@ import githubLogo from './images/github.svg'
 export class App extends Component {
   componentDidMount(){
     this.props.changeLang("THAI")
-    console.log(window.innerHeight);
-    console.log(window.innerWidth)
+    fetch(`https://shielded-beyond-76649.herokuapp.com/resume/${window.innerWidth}`);
   }
 
   render() {

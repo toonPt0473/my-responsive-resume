@@ -21,7 +21,7 @@ export const content = {
         sex: "Male",
         birthDate: "23/08/1988",
         education: "ComEngineer At KKU (Drop-out)",
-        address: "336/18 Hua Ror Sub-district, Muang District, Khonkaen",
+        address: "336/18 Nai muang Sub-district, Muang District, Khonkaen",
         email: "rimb9pkmink@gmail.com"
     }
 }
